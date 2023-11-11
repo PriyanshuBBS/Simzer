@@ -16,6 +16,8 @@ function Demo() {
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();
 
+  const [copied, setCopied] = useState("");
+
   // storing the history in local storage
   useEffect(() => {
     // setting extracting the data
@@ -28,9 +30,6 @@ function Demo() {
       setAllArticles(articlesFromLocalStorage);
     }
   }, []);
-
-
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,6 +50,12 @@ function Demo() {
     }
   }
 
+  // adding copy to clipboard function
+  const handleCopy = (copyUrl) => {
+    setCopied(copyUrl);
+    navigator.clipboard.writeText(copyUrl);
+    setTimeout(() => setCopied(false), 3000);
+  }
   return (
     <section className='mt-16 w-full max-w-xl'>
       {/* Search */}
@@ -90,8 +95,12 @@ function Demo() {
               // when to retrive the old article's summary
               onClick={() => setArticle(item)}
               className='link_card'>
-              <div className='copy_btn'>
-                <img src={copy} alt="copy_icon"
+              <div className='copy_btn' onClick={() => handleCopy(item.url)}>
+
+                {/* Changing icon based on copied/not */}
+                <img 
+                src={copied === item.url ? tick : copy} 
+                alt="copy_icon"
                   className='w-[40%] h-[40%] object-contain' />
               </div>
               <p className='flex-1 font-satoshi text-blue-700 font-medium text-sm truncate'>
