@@ -5,7 +5,7 @@ function Hero() {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        <img src={logo} alt='sumz_logo' className='w-12 object-contain' />
 
         <button
           type='button'
@@ -21,7 +21,7 @@ function Hero() {
         <h1 className='head_text'>
           {/* max-md:hidden means break the line at smaller screens */}
         Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient '>OpenAI GPT-4</span>
+        <span className='blue_gradient '>OpenAI Api</span>
       </h1>
       <h2 className='desc'>
         Simplify your reading with Summize, an open-source article summarizer
