@@ -14,9 +14,30 @@ Don't forget to ⭐ the repo
 <h3 align="center">Screenshots :camera:</h3>
 
 <div align="center">
-        <img width="70%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160646.png" alt="screenshot 1">
-     <br>
-     <img width="70%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160756.png" alt="screenshot 1">
+        <img width="50%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160646.png" alt="screenshot 1">
+     <img width="50%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160756.png" alt="screenshot 1">
     </tr>
   </table>
 </div>
+
+---
+
+<h3 align="center">Building from source :hammer_and_wrench:</h3>
+
+1. Fetch latest source code from master branch.
+```
+git clone https://github.com/PriyanshuBBS/Simzer
+```
+
+2. Run the app with VS Code. With the command line:
+
+```
+npm run dev
+```
+
+---
+
+---
+
+<h3 align="center">Do you like the project? :heartpulse:	</h3>
+
