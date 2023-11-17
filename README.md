@@ -2,7 +2,8 @@
 
 An Article Summarizer for the Readers. It Shorten length article in small Paragrahs<br><br>
      <img src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20151720.png" alt="SIMZER" style="margin:10px 10px">
-Don't forget to ⭐ the repo
+
+
 ### Built With
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
@@ -39,3 +40,4 @@ npm run dev
 
 <h3 align="center">Do you like the project? :heartpulse:	</h3>
 
+<h3>Don't forget to ⭐ the repo</h3>
