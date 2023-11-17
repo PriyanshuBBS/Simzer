@@ -1,6 +1,6 @@
 # Simzer
 
-An Article Summarizer for the Readers. It Shorten length article in small Paragraphs<br><br>
+An Article Summarizer for the Readers. It Shorten lengthy article in small Paragraphs<br><br>
      <img src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20151720.png" alt="SIMZER" style="margin:10px 10px">
 
 
