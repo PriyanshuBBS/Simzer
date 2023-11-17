@@ -14,10 +14,8 @@ Don't forget to ⭐ the repo
 <h3 align="center">Screenshots :camera:</h3>
 
 <div align="center">
-        <img width="50%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160646.png" alt="screenshot 1">
-     <img width="50%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160756.png" alt="screenshot 1">
-    </tr>
-  </table>
+        <img width="40%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160646.png" alt="screenshot 1">
+     <img width="40%" src="https://github.com/PriyanshuBBS/Media/blob/master/Screenshot%202023-11-17%20160756.png" alt="screenshot 1">
 </div>
 
 ---
